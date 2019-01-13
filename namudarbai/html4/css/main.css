@@ -1,0 +1,30 @@
+html{
+    background-color: aquamarine;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    padding-bottom: 10px;
+    font-size: 60px;
+    color: darkorange
+}
+
+.mainContainer{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid darkorange;
+    padding: 0 0 30px 30px;
+    background-color: white
+
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #505050;
+}
+ol{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
