@@ -1,0 +1,15 @@
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+div {
+    padding: 5px;
+}
+
+h1, h2 {
+    color: #ff3d63
+}
+
+.antras {
+    color: darkgray;
+}
