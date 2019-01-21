@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+  <title>Calendar</title>
+</head>
+    <style>
+        .calendar {
+            display: block;
+            background-color: antiquewhite;
+            width: 800px;
+            padding:20px ;
+            margin: auto;
+        }
+        h1 {
+            font-family: 'Shrikhand', cursive;
+            padding-bottom: 10px;
+        }
+        .container {
+            width: 800px;
+            display: flex;
+            flex-wrap: wrap
+        }
+        .box {
+            padding: 3px;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #b9b9b9;
+            margin: 2px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 14px;
+            background-color: #e6efff
+        }
+        .box:nth-child(7n+7) {
+            background-color: #fcc698;
+        }
+        .empty {
+            visibility: hidden;
+        }
+        .events {
+            background-color: #ff82cf;
+            font-size: 12px;
+            line-height: 1;
+            padding: 3px;
+        }
+        .events:hover {
+            background-color: #64aef5;
+            color: aliceblue;
+        }
+        .eventsSunday {
+            background-color: #90ffa5;
+            font-size: 12px;
+            line-height: 1;
+            padding: 3px;
+        }
+        .eventsSunday:hover {
+            background-color: #fd0000;
+            color: aliceblue;
+        }
+
+    </style>
+
+<body>
+    <div class="calendar">
+      <h1>SAUSIS</h1>
+      <div class="container">
+          <div class="box empty"></div>
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+          <div class="box">5</div>
+          <div class="box">6</div>
+          <div class="box">7</div>
+          <div class="box">
+              8 <br>
+              <p class="events">Random tuesday</p>
+          </div>
+          <div class="box">9</div>
+          <div class="box">10</div>
+          <div class="box">11</div>
+          <div class="box">12</div>
+          <div class="box">13</div>
+          <div class="box">14</div>
+          <div class="box">15</div>
+          <div class="box">16</div>
+          <div class="box">17</div>
+          <div class="box">18</div>
+          <div class="box">19</div>
+          <div class="box">
+              20 <br>
+              <p class="eventsSunday"> Tiesiog sekmadienis</p>
+          </div>
+          <div class="box">21</div>
+          <div class="box">22</div>
+          <div class="box">23</div>
+          <div class="box">24</div>
+          <div class="box">
+              25 <br>
+              <p class="events"> Vilniaus šviesų festivalis</p>
+          </div>
+          <div class="box">26</div>
+          <div class="box">27</div>
+          <div class="box">28</div>
+          <div class="box">29</div>
+          <div class="box">30</div>
+          <div class="box">31</div>
+      </div>
+    </div>
+</body>
+</html>
