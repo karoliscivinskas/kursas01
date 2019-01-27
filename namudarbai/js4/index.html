@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS4</title>
+</head>
+
+
+<body>
+    <form>
+        <input type="text" id="var1" style="width: 25px">
+        <span>/</span>
+        <input type="text" id="var2" style="width: 25px">
+        <span>=</span>
+        <input type="button" onclick="alert(division()), console.log(division())" id="equals" value="Calculate">
+    </form>
+<script>
+    var x, y = "";
+    function division () {
+    x = document.getElementById("var1").value;
+    y = document.getElementById("var2").value;
+    return  x / y;
+    };
+</script>
+</body>
+</html>
