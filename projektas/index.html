@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:700" rel="stylesheet">
+    <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
+    <link type="text/css" href="css/customcss.css" rel="stylesheet">
+    <title>The Ring Road Project</title>
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+<!--    <div class="navbar-fixed">-->
+        <nav class="grey lighten-3">
+            <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#prints">Prints</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+<!--    </div>-->
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="collapsible.html">Prints</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+
+     <main>
+        <div class="parallax-container">
+          <div class="parallax" ><img src="img/ring_road_iceland-11.jpg"></div>
+                <div class="col container s12 about-div">
+                    <div class="site-title">
+                        <h2>THE RING ROAD PROJECT</h2>
+                    </div>
+                    <div class="about-project-text">
+                        <p><b>Iceland, 2014</b></p>
+                        <p>A semi-conscious road trip along the No 1 highway in Iceland. A drift-like journey with no particular destination. The initial point of departure coincides with the final point of arrival. A ring road.
+                        The act of photographing is almost involuntary. It is a necessary memory aid. It anchors the observer to the reality and prevents his disappearance into the ether.  The photographs do not convey any particular narrative. Rather they serve as a framework for a story to be built upon viewers' experience and consciousness.</p>
+                    </div>
+                </div>
+
+        </div>
+        <div class="spacer-top" id="gallery">
+        </div>
+        <div class="section white row container gallery-container">
+
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-8.jpg" alt="img1" class="gallery-thumbnail" onclick="openModal();currentSlide(1)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-10.jpg" alt="img2" class="gallery-thumbnail" onclick="openModal();currentSlide(2)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-11.jpg" alt="img3" class="gallery-thumbnail" onclick="openModal();currentSlide(3)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-35.jpg" alt="img4" class="gallery-thumbnail" onclick="openModal();currentSlide(4)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-39.jpg" alt="img5" class="gallery-thumbnail" onclick="openModal();currentSlide(5)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-47.jpg" alt="img6" class="gallery-thumbnail" onclick="openModal();currentSlide(6)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-48.jpg" alt="img7" class="gallery-thumbnail" onclick="openModal();currentSlide(7)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-49.jpg" alt="img8" class="gallery-thumbnail" onclick="openModal();currentSlide(8)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-58.jpg" alt="img9" class="gallery-thumbnail" onclick="openModal();currentSlide(9)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-60.jpg" alt="img10" class="gallery-thumbnail" onclick="openModal();currentSlide(10)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-62.jpg" alt="img11" class="gallery-thumbnail" onclick="openModal();currentSlide(11)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-68.jpg" alt="img12" class="gallery-thumbnail" onclick="openModal();currentSlide(12)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-69.jpg" alt="img13" class="gallery-thumbnail" onclick="openModal();currentSlide(13)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-72.jpg" alt="img14" class="gallery-thumbnail" onclick="openModal();currentSlide(14)">
+            </div>
+            <div class="col s12 l4">
+                <img src="img/gallery/small/ring_road_iceland-83.jpg" alt="img15" class="gallery-thumbnail" onclick="openModal();currentSlide(15)">
+            </div>
+          </div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content container">
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-8.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-10.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-11.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-35.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-39.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-47.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-48.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-49.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-58.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-60.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-62.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-68.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-69.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-72.jpg" class="slide">
+                </div>
+                <div class="mySlides">
+                    <img src="img/gallery/ring_road_iceland-83.jpg" class="slide">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <div class="parallax-container">
+          <div class="parallax" id="prints"><img src="img/gallery/ring_road_iceland-95.jpg"></div>
+        </div>
+    </main>
+    <footer id="contacts">
+        <div class="row container">
+            <div class="col s12 l6">
+            <h3>Please leave a message</h3>
+            </div>
+            <form class="col s12 l6">
+                <div class="row">
+                    <div class="input-field col s12">
+                    <input name="vardas" type="text" class="validate">
+                    <label for="name">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                    <input name="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                    <textarea name="message" ></textarea>
+                    <label for="message">Your Message</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="submit-button col">
+                        <button name="submit" type="submit" id="contact-submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+        });
+
+        function openModal() {
+          document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+          document.getElementById('myModal').style.display = "none";
+        }
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
+</body>
+</html>
